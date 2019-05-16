@@ -42,6 +42,7 @@ let isWorkerDisabled = false;
 let fallbackWorkerSrc;
 
 let fakeWorkerFilesLoader = null;
+/*
 if (typeof PDFJSDev !== 'undefined' && PDFJSDev.test('GENERIC')) {
   let useRequireEnsure = false;
   // For GENERIC build we need to add support for different fake file loaders
@@ -99,6 +100,7 @@ if (typeof PDFJSDev !== 'undefined' && PDFJSDev.test('GENERIC')) {
     }
   }
 }
+*/
 
 /**
  * @typedef {function} IPDFStreamFactory
